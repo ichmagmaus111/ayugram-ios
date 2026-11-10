@@ -1,0 +1,9 @@
+{
+  "images" : [
+    { "filename" : "AYGFilters.png", "idiom" : "universal", "scale" : "1x" },
+    { "filename" : "AYGFilters@2x.png", "idiom" : "universal", "scale" : "2x" },
+    { "filename" : "AYGFilters@3x.png", "idiom" : "universal", "scale" : "3x" }
+  ],
+  "info" : { "author" : "xcode", "version" : 1 },
+  "properties" : { "template-rendering-intent" : "template" }
+}

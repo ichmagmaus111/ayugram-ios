@@ -1,0 +1,120 @@
+fastlane/README.md
+fastlane/report.xml
+fastlane/test_output/*
+fastlane/fastlanematch
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+.DS_Store
+*.dSYM
+*.dSYM.zip
+*.ipa
+*/xcuserdata/*
+buck-out/*
+.buckd/*
+tools/buck
+tools/bazel
+AppBinary.xcworkspace/*
+Project.xcodeproj/*
+Watch/Watch.xcodeproj/*
+AppBundle.xcworkspace/*
+*.xcworkspace
+*.xcodeproj
+!*_Xcode.xcodeproj
+.idea
+*/.idea/*
+submodules/MtProtoKit/TON/macOS/lib/libtonlibjson.0.5.dylib
+submodules/MtProtoKit/TON/macOS/lib/libtonlibjson.dylib
+submodules/MtProtoKit/TON/macOS/lib/cmake/Tonlib/TonlibConfig.cmake
+submodules/MtProtoKit/TON/macOS/lib/cmake/Tonlib/TonlibConfigVersion.cmake
+submodules/MtProtoKit/TON/macOS/lib/cmake/Tonlib/TonlibTargets-release.cmake
+submodules/MtProtoKit/TON/macOS/lib/cmake/Tonlib/TonlibTargets.cmake
+submodules/MtProtoKit/TON/macOS/lib/fift/Asm.fif
+submodules/MtProtoKit/TON/macOS/lib/fift/Fift.fif
+submodules/MtProtoKit/TON/macOS/lib/fift/Lisp.fif
+submodules/MtProtoKit/TON/macOS/lib/fift/Lists.fif
+submodules/MtProtoKit/TON/macOS/lib/fift/Stack.fif
+submodules/MtProtoKit/TON/macOS/lib/fift/TonUtil.fif
+bazel-bin
+bazel-bin/*
+bazel-genfiles
+bazel-genfiles/*
+bazel-out
+bazel-out/*
+bazel-telegram-ios
+bazel-telegram-ios/*
+bazel-testlogs
+bazel-testlogs/*
+xcodeproj.bazelrc
+*/*.swp
+*.swp
+build-input/*
+**/*.pyc
+*.pyc
+submodules/OpusBinding/SharedHeaders/*
+submodules/FFMpegBinding/SharedHeaders/*
+submodules/OpenSSLEncryptionProvider/SharedHeaders/*
+submodules/TelegramCore/FlatSerialization/Sources/*
+.build/**
+**/.build/**
+spm-files
+xcode-files
+/.claude/
+**/.claude/settings.local.json
+/buildbox/*
+**/node_modules/
+tools/sim-watcher/dist/
+.mcp.json
+
+# ---- AYG ----------------------------------------------------------------
+# Notes for AI assistants: local working documents, never part of a release.
+CLAUDE.md
+**/CLAUDE.md
+AGENTS.md
+**/AGENTS.md
+.claude/
+**/.claude/
+
+# Signing material — the backstop that keeps a stray certificate or profile
+# from ever being added by hand or by `git add .`.
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.p8
+*.pem
+*.key
+*.certSigningRequest
+codesigning-adhoc/
+codesigning-appstore/
+
+# api_id / api_hash registered on my.telegram.org. Publishing these lets anyone
+# impersonate this client to Telegram and gets the pair revoked. The development
+# configuration carries only Telegram's public simulator test pair, but it is
+# kept out of the index anyway so the release configs never get a precedent.
+build-system/AYGDevelopmentConfiguration.json
+build-system/AYGAdHocConfiguration.json
+build-system/AYGAppStoreConfiguration.json
+codesigning-adhoc-ayugram/
+codesigning-appstore-ayugram/
+# The Xcode pin XTGXcodeConfig.sh derives from `xcode-select` before every build.
+build-system/XTGXcode/
+build-system/XTGXcode.bazelrc
+
+# bazel output symlink of this checkout, whatever its directory is called
+# (upstream only lists bazel-telegram-ios).
+/bazel-*
+

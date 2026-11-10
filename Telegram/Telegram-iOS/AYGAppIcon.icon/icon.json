@@ -1,0 +1,33 @@
+{
+  "fill": {
+    "solid": "srgb:0.16863,0.13333,0.25882,1.00000"
+  },
+  "groups": [
+    {
+      "blend-mode": "normal",
+      "layers": [
+        {
+          "glass": false,
+          "image-name": "AYGLogo.png",
+          "name": "AYGLogo"
+        }
+      ],
+      "lighting": "combined",
+      "shadow": {
+        "kind": "layer-color",
+        "opacity": 1
+      },
+      "specular": true,
+      "translucency": {
+        "enabled": false,
+        "value": 1
+      }
+    }
+  ],
+  "supported-platforms": {
+    "circles": [
+      "watchOS"
+    ],
+    "squares": "shared"
+  }
+}
